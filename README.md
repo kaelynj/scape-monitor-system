@@ -9,8 +9,8 @@
   * Upload each photo to the directory
 * At the day's end:
   * Verify all photos were successfully uploaded.  Upload any that were missed
-  * Delete all photos older than one week from current date
-  * Power off/hibernate the device
+  * Delete all photos older than one week from current date locally
+  * Power off/hibernate the device?
 
 # Libraries needed
 * Python >= 3.10.7
