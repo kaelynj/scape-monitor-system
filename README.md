@@ -2,7 +2,7 @@
  Project to automate obtaining pictures of garlic scapes and upload the photos to google drive.
 
 # Required Features
-* Take one picture an hour for several hours during daylight with the date & time as filename
+* Take one picture a day for several hours during daylight with the date & time as filename
   * Script automation either through bash scheduler or python APScheduler
   * Scheduling script should happen at startup
 * Once a picture is taken, verify internet connection to connect to google drive and:
@@ -12,6 +12,7 @@
   * Verify all photos were successfully uploaded.  Upload any that were missed
   * Delete all photos older than one week from current date locally
   * Power off/hibernate the device?
+* Test internet connection periodically
 
 # Libraries needed
 * Python >= 3.10.7
