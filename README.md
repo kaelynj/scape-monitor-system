@@ -4,6 +4,7 @@
 # Required Features
 * Take one picture an hour for several hours during daylight with the date & time as filename
   * Script automation either through bash scheduler or python APScheduler
+  * Scheduling script should happen at startup
 * Once a picture is taken, verify internet connection to connect to google drive and:
   * Create a new gdrive directory for the day's photos (if doesn't exist)
   * Upload each photo to the directory
