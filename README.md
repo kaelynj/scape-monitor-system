@@ -28,3 +28,33 @@
   * [APScheduler Python](https://apscheduler.readthedocs.io/en/latest/)
   * [Bash Schedule at Time](https://stackoverflow.com/questions/18945669/how-to-run-a-script-at-a-certain-time-on-linux)
   * [Use cron to automate scripts](https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-automatically-without-the-interactive-editor)
+
+# Meetings
+* 29 December 2022 Meeting - Define Required Features, Basic Design, Team Availability
+* 5 January 2023 Meeting - Updates on material/component orders, Define Timeline, Setup team sharing and comms
+* 17 January 2023 Meeting (proposed) - Plan February prototyping session to be on-site at Woodcock, List materials needed for a successful session, Align on prework which must be completed prior to session
+
+# Timeline
+* February 2023 
+  * Prototype and deploy garlic scape remote monitoring system at Woodcock
+  * Use demo data and photos to confirm system capabilities
+* February - April 2023
+  * Upload photos (at least one daily) to test the stability of the connection and troubeshoot other potential issues
+  * Add capabilities for remote monitoring system to act as a wifi node to enable weather station to upload data from the field (optional)
+* May 2023
+  * Deploy garlic scape remote monitoring system to garlic plot
+  * Review photo resolution to determine if scape progress can be observed
+* June 2023
+  * Use photos to determine scape harvest timing
+* July - October 2023
+  * Move remote monitoring system to do timelapse photgraphy on another crop on the farm (e.g. oats, clover) (optional)
+
+# Items needed for February Prototype Session
+* SD card with Pi OS
+* Computer monitor
+* keyboard
+* snacks and beverages (dietary restrictions)
+
+# Parking Lot (put ideas to return to here)
+* Rasp Pi Pico for next iteration of prototype for lower cost and lower energy consumption
+
