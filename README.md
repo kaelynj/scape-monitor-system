@@ -2,7 +2,7 @@
  Project to automate obtaining pictures of garlic scapes and upload the photos to google drive.
 
 # Required Features
-* Take one picture a day for several hours during daylight with the date & time as filename
+* Take one picture a day during daylight with the date & time as filename
   * Script automation either through bash scheduler or python APScheduler
   * Scheduling script should happen at startup
 * Once a picture is taken, verify internet connection to connect to google drive and:
@@ -14,12 +14,21 @@
   * Power off/hibernate the device?
 * Test internet connection periodically
 
+## Coding To-Dos:
+1. Set up script scheduler (either cron or APScheduler)
+2. Write installation/readme to set up GDrive OAuth tokens
+3. Add in documentation for functions and scripts
+4. Write script to verify photos have been uploaded, upload any that are missing
+5. Come up with a check for internet connectivity
+
 # Libraries needed
 * Python >= 3.10.7
 * pip, conda
 * PiCamera
 * google-api-python-client
 * google-auth-httplib2 google-auth-oauthlib
+* numpy
+* pillow
 
 # Websites to reference
 * [Raspi Camera Interface](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0)
@@ -35,7 +44,7 @@
 * 17 January 2023 Meeting (proposed) - Plan February prototyping session to be on-site at Woodcock, List materials needed for a successful session, Align on prework which must be completed prior to session
 
 # Timeline
-* February 2023 
+* February 2023
   * Prototype and deploy garlic scape remote monitoring system at Woodcock
   * Use demo data and photos to confirm system capabilities
 * February - April 2023
@@ -57,4 +66,3 @@
 
 # Parking Lot (put ideas to return to here)
 * Rasp Pi Pico for next iteration of prototype for lower cost and lower energy consumption
-
