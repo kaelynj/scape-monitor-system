@@ -19,12 +19,14 @@ def main():
     '''
     #Take five pictures in a row every 5 seconds
     folder = "ScapePhotos"
+    print("Generating image Files...")
     for i in range(5):
         now = datetime.now()
         dtStr = now.strftime("%Y-%m-%d_%H.%M.%S.jpg")
         image = generateImage()
         image.save(dtStr)
         folder = "ScapePhotos"
+        print("uploading: {}".format(dtStr))
         gdrive_tools.upload_file(folder, dtStr)
         sleep(5)
 

@@ -37,6 +37,7 @@
   * [APScheduler Python](https://apscheduler.readthedocs.io/en/latest/)
   * [Bash Schedule at Time](https://stackoverflow.com/questions/18945669/how-to-run-a-script-at-a-certain-time-on-linux)
   * [Use cron to automate scripts](https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-automatically-without-the-interactive-editor)
+  * [Crontab Tutorial](https://www.hostinger.com/tutorials/cron-job)
 
 # Meetings
 * 29 December 2022 Meeting - Define Required Features, Basic Design, Team Availability
