@@ -17,8 +17,8 @@ def main():
     now = datetime.now()
     dtStr = now.strftime("%Y-%m-%d_%H.%M.%S.jpg")
     capture(dtStr)
+    print("uploading: {}".format(dtStr))
     gdrive_tools.upload_file(folder, dtStr)
-    print("Image Uploaded!")
 
 
 
