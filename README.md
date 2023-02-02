@@ -15,8 +15,9 @@
 * Test internet connection periodically
 
 ## Coding To-Dos:
-1. Set up script scheduler (either cron or APScheduler)
+1. ~~Set up script scheduler (either cron or APScheduler)~~
 2. Write installation/readme to set up GDrive OAuth tokens
+  1. Include docs/instructions on setting up cron
 3. Add in documentation for functions and scripts
 4. Write script to verify photos have been uploaded, upload any that are missing
 5. Come up with a check for internet connectivity
